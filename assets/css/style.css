@@ -1,16 +1,30 @@
-* {
+@font-face{
+    font-family: helvetica_neue_bold;
+    src:url(../fonts/helvetica_neue_bold.ttf)
+}
+@font-face{
+    font-family: helvetica_neue_light;
+    src:url(../fonts/helvetica_neue_light.ttf)
+}
+@font-face{
+    font-family: helvetica_neue_roman;
+    src:url(../fonts/helvetica_neue_roman.ttf)
+}
+    
+    
+   ul, li, h1,h2,h3, p, button {
+       font-family:helvetica_neue_light;
+    color: #4d4d4d;}
+    
+    
+ * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     font-family: normal
 }
-.body1{
-    max-width: 1920px;
-    height: 3754px;
-    margin: 0px;
-    
-}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -34,12 +48,13 @@ header{
     margin-left: 175px;
 }
 .h1-class{ 
-    font-family: HelveticaNeue;
+    font-family:helvetica_neue_light;
     font-size: 84px;
     color: #4d4d4d;
       }
   
 .p-class{
+    font-family:helvetica_neue_light;
     font-size:  24px;
     color: #4d4d4d;
     padding-top: 55px;
@@ -50,6 +65,7 @@ header{
     height: 72px;
     border-radius: 5px;
     background-color: #cacaca;
+    font-family:helvetica_neue_light;
   }
 .img-headphone{
     display: flex;
@@ -63,18 +79,23 @@ header{
     align-items: flex-end;
     margin-left: 179px;
     margin-right: 170px;
+    margin-top: 50.9px;
 }
 .product-li{
     display: flex;
     flex-direction: row;
     align-items: center;
     }
-.bestseller{display: flex;
+.bestseller{
+    display: flex;
     margin-left: 200px;
     margin-right: 140px;
     display: block;
     padding-top: 126px;
     }
+.bestseller-h2{
+padding-left: 100px;
+}
 .bestseller-ul{
     display: flex;
     flex-wrap: wrap;
@@ -100,8 +121,8 @@ header{
     justify-content: space-between;
 }
 .why-we{
-   margin-left: 200px;
-   margin-right: 200px;
+   margin-left: 300px;
+   margin-right: 300px;
    padding-top: 126px;
    padding-bottom: 60px;
 }
@@ -139,7 +160,6 @@ header{
 }
 footer{
     background-color: #f2f2f2;
-    width: 1920px;
     height: 348px;
      }
 .footer-logo-div{
@@ -197,6 +217,7 @@ footer{
     width: 1520px;
     display: flex;
     justify-content: flex-end;
+    margin-top: 39.9px;
     }
 .footer-span{
     display: flex;
@@ -220,15 +241,11 @@ hr{
 
 /*headphone css*/
 
-.body2{
-    max-width: 1920px;
-    height: 1533px;
-    margin: o;
-}
 .buy-headphone1{
     display: flex;
     margin-left: 140px;
     margin-right: 140px;
+    margin-bottom: 175px;
 }
 .img-headphone1{
     width: 846px;
@@ -281,11 +298,6 @@ hr{
 
 /*list css*/
 
-.body{
-    max-width: 1920px;
-    height: 2435px;
-    margin: o;
-}
 .select-css{
     width: 212px;
     height: 54px;
