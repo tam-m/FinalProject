@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: normal
+}
+.body1{
+    max-width: 1920px;
+    height: 3754px;
+    margin: o;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    align-items: center;
+    margin-left: 59px;
+    margin-right: 79px;
+}
+.header-nav{
+    display: flex;
+    width: 243px;
+    justify-content: space-between;
+}
+.header-logo{
+    padding-left: 59px;
+    padding-top: 10px;
+    }
+.buy-headphone{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 175px;
+}
+.h1-class{ 
+    font-family: HelveticaNeue;
+    font-size: 84px;
+    color: #4d4d4d;
+      }
+  
+.p-class{
+    font-size:  24px;
+    color: #4d4d4d;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  } 
+.button-class{
+    width: 200px;
+    height: 72px;
+    border-radius: 5px;
+    background-color: #cacaca;
+  }
+.img-headphone{
+    display: flex;
+    width: 846px;
+    height: 846px;
+    }
+.product-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-left: 179px;
+    margin-right: 170px;
+}
+.product-li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+.bestseller{display: flex;
+    margin-left: 200px;
+    margin-right: 140px;
+    display: block;
+    padding-top: 126px;
+    }
+.bestseller-ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding-top: 69px;
+}
+.bestseller-li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: calc((100% / 3) - 37px);
+   }
+.bestseller-div1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 51.6px;
+}
+.bestseller-div2{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.why-we{
+   margin-left: 200px;
+   margin-right: 200px;
+   padding-top: 126px;
+   padding-bottom: 60px;
+}
+.why-we-ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 49px;
+    }
+.why-we-li{
+    position: relative;
+    }
+.why-we-p{
+    position: absolute;
+    color:  #ffffff;
+    z-index: 0;
+    top: 22px;
+    left: 38px;
+}
+.why-we-img{
+     z-index: -1;
+     width: 482;
+     height: 290;
+    }
+.why-we-div{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    background-color: #ffffff;
+    z-index: 0;
+    bottom: 40px;
+    left: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: #f2f2f2;
+    width: 1920px;
+    height: 348px;
+     }
+.footer-logo-div{
+    display: flex;
+    width: 1520px;
+    }
+.footer-logo{
+    width: 87px;
+    height: 87px;
+    margin-top: 61px;
+    margin-left: 200px;
+}
+.footer-p{
+    width: 353px;
+    height: 128px;
+    opacity: 0.5;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75;
+    text-align: left;
+    color: #4d4d4d;
+    padding-top: 76px;
+    padding-left: 40px;
+}
+.footer-div{
+    display: flex;
+    width: 250px;
+    height: 130px;
+    padding-top: 73px;
+    padding-left: 250px;
+    text-align: left;
+    flex-direction: column;
+  }
+  .footer-div-a{
+    font-family: HelveticaNeue;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.65;
+    color: #4d4d4d;
+  }
+  .footer-div1{
+    padding-left: 200px;
+    padding-top: 64px;
+  }
+  address{
+    font-family: HelveticaNeue;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: left;
+    color: #4d4d4d;
+}
+.div-footer-svg{ 
+    width: 1520px;
+    display: flex;
+    justify-self: end;
+
+}
+hr{
+    width: 1520px;
+    margin-left: 200px;
+    margin-right: 200px;
+    opacity: 0.5;
+    color: #4D4D4D;
+    padding-top: 55,5px;
+}
+
+
+
+
+
+
+
+/*headphone css*/
+
+.body2{
+    max-width: 1920px;
+    height: 1533px;
+    margin: o;
+}
+.buy-headphone1{
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.img-headphone1{
+    width: 846px;
+}
+.body2-p1{
+    width: 698px;
+    height: 83px;
+    font-family: HelveticaNeue;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38;
+    text-align: left;
+    color: #4d4d4d;
+    margin-top: 113px;
+  }
+.body2-h1{
+    height: 80px;
+    font-family: HelveticaNeue;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.08;
+    text-align: left;
+    color: #4d4d4d;
+    padding-top: 39px;
+  }
+.body2-p2{
+    width: 552px;
+    height: 112px;
+    font-family: HelveticaNeue-UltraLigCondObl;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: left;
+    color: #4d4d4d;
+    padding-top: 43px;
+}
+.body2-div{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.body2-button{
+    width: 180px;
+    height: 72px;
+    margin-right: 48px;
+}
