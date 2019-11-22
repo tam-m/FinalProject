@@ -10,9 +10,11 @@
     font-family: helvetica_neue_roman;
     src:url(../fonts/helvetica_neue_roman.ttf)
 }
+
+
+
     
-    
-   ul, li, h1,h2,h3, p, button {
+   ul, li, h1,h2,h3, p, button,div, a, option {
        font-family:helvetica_neue_light;
     color: #4d4d4d;}
     
@@ -37,6 +39,14 @@ header{
     display: flex;
     width: 243px;
     justify-content: space-between;
+   }
+.header-nav li:hover{
+    content:'';
+    display: flex;
+    flex-direction: column-reverse;
+    width: 51px;
+    height: 3px;
+    background-color: #4d4d4d; 
 }
 .header-logo{
     padding-left: 59px;
@@ -45,16 +55,13 @@ header{
 .buy-headphone{
     display: flex;
     justify-content: space-around;
-    margin-left: 175px;
+    
 }
-.h1-class{ 
-    font-family:helvetica_neue_light;
+.h1-class{
     font-size: 84px;
     color: #4d4d4d;
       }
-  
 .p-class{
-    font-family:helvetica_neue_light;
     font-size:  24px;
     color: #4d4d4d;
     padding-top: 55px;
@@ -65,7 +72,6 @@ header{
     height: 72px;
     border-radius: 5px;
     background-color: #cacaca;
-    font-family:helvetica_neue_light;
   }
 .img-headphone{
     display: flex;
@@ -77,8 +83,7 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-    margin-left: 179px;
-    margin-right: 170px;
+   
     margin-top: 50.9px;
 }
 .product-li{
@@ -86,15 +91,23 @@ header{
     flex-direction: row;
     align-items: center;
     }
+    .product-li ::after{
+    position: relative;
+    content:'';
+    display: block;
+    width: 46px;
+    height: 7px;
+    background-color: #4d4d4d;
+    bottom: -50px;
+    right: -40px;
+    }
 .bestseller{
-    display: flex;
-    margin-left: 200px;
-    margin-right: 140px;
+    display: flex; 
     display: block;
     padding-top: 126px;
     }
 .bestseller-h2{
-padding-left: 100px;
+    padding-left: 150px;
 }
 .bestseller-ul{
     display: flex;
@@ -121,14 +134,16 @@ padding-left: 100px;
     justify-content: space-between;
 }
 .why-we{
-   margin-left: 300px;
-   margin-right: 300px;
+   display: flex;
+   flex-direction: column;
    padding-top: 126px;
    padding-bottom: 60px;
+   
 }
+
 .why-we-ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 49px;
     }
 .why-we-li{
@@ -145,6 +160,7 @@ padding-left: 100px;
      z-index: -1;
      width: 482;
      height: 290;
+     margin-right: 36px;
     }
 .why-we-div{
     position: absolute;
@@ -157,26 +173,28 @@ padding-left: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 40px;
 }
 footer{
     background-color: #f2f2f2;
     height: 348px;
      }
+.footer-div1{
+    display: flex;
+    justify-content: space-around;
+}
 .footer-logo-div{
     display: flex;
-    width: 1520px;
-    }
+   }
 .footer-logo{
     width: 87px;
     height: 87px;
     margin-top: 61px;
-    margin-left: 200px;
 }
 .footer-p{
     width: 353px;
     height: 128px;
     opacity: 0.5;
-    font-family: HelveticaNeue;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.75;
@@ -185,28 +203,24 @@ footer{
     padding-top: 76px;
     padding-left: 40px;
 }
-.footer-div{
+.footer-ul{
     display: flex;
     width: 250px;
     height: 130px;
     padding-top: 73px;
-    padding-left: 250px;
     text-align: left;
     flex-direction: column;
-  }
-  .footer-div-a{
-    font-family: HelveticaNeue;
+   }
+  .footer-li{
     font-size: 17px;
     font-weight: 500;
     line-height: 1.65;
     color: #4d4d4d;
   }
-  .footer-div1{
-    padding-left: 200px;
+  .footer-div{
     padding-top: 64px;
   }
   address{
-    font-family: HelveticaNeue;
     font-size: 15px;
     font-weight: 500;
     line-height: 1.6;
@@ -214,23 +228,21 @@ footer{
     color: #4d4d4d;
 }
 .div-footer-svg{ 
-    width: 1520px;
     display: flex;
     justify-content: flex-end;
-    margin-top: 39.9px;
+    margin-top: 15px;
     }
 .footer-span{
     display: flex;
     width: 129px;
     justify-content: space-between;
+    margin-right: 200px;
 }
 hr{
-    width: 1520px;
-    margin-left: 200px;
-    margin-right: 200px;
+    display: flex;
     opacity: 0.5;
     color: #4D4D4D;
-    padding-top: 55,5px;
+    padding-top: 65px;
 }
 
 
@@ -253,7 +265,6 @@ hr{
 .body2-p1{
     width: 698px;
     height: 83px;
-    font-family: HelveticaNeue;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.38;
@@ -263,7 +274,6 @@ hr{
   }
 .body2-h1{
     height: 80px;
-    font-family: HelveticaNeue;
     font-size: 60px;
     font-weight: bold;
     line-height: 1.08;
@@ -274,7 +284,6 @@ hr{
 .body2-p2{
     width: 552px;
     height: 112px;
-    font-family: HelveticaNeue-UltraLigCondObl;
     font-size: 18px;
     line-height: 1.67;
     text-align: left;
@@ -308,33 +317,32 @@ hr{
   .option-css{ 
     width: 135px;
     height: 21px;
-    font-family: HelveticaNeue;
     font-size: 16px;
     font-weight: 500;
     line-height: 2.75;
     text-align: left;
     color: #4d4d4d;
     margin-top: 11px;
-  }
+}
   .div-selectbox{
-    width: 1520px;
-    margin-left: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
   }
    .div-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1520px;
     height: 250px;
     border-radius: 10px;
     border: solid 1px #000000;
     background-color: #ffffff;
-    margin-left: 200px;
     margin-top: 37px;
     margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
     }
   .list-div1{
     display: flex;
@@ -351,7 +359,6 @@ hr{
     margin-right: 62px;
     }
     .price{
-    font-family: HelveticaNeue;
     font-size: 24px;
     line-height: 4.42;
     color: #4d4d4d;
@@ -367,3 +374,6 @@ hr{
     height: 72px;
     border-radius: 5px;
     }
+
+svg:hover{background-color: #5F9EA0;}
+
