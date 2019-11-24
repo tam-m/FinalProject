@@ -7,7 +7,7 @@ for (let i =0; i <bl; i++) {
         this.classList.toggle('active');
             
         if (this.classList.contains('active')) {
-            this.style.background = 'red';
+            this.style.background = '#F7A897';
         } else {    
             this.style.background = '#fff';
          } 
