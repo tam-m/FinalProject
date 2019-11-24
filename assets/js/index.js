@@ -1,22 +1,29 @@
-let all_svg_buttons = document.getElementsByClassName('icon');
+// // let all_svg_buttons = document.getElementsByClassName('icon');
 
 
-let bl = all_svg_buttons.length;
+// let bl = all_svg_buttons.length;
 
-for (let i =0; i <bl; i++) {
-    all_svg_buttons [i].addEventListener('click', function(){
+// for (let i =0; i <bl; i++) {
+//     all_svg_buttons [i].addEventListener('click', function(){
 
-        this.classList.toggle('active');
+//         this.classList.toggle('active');
             
-        if (this.classList.contains('active')) {
-            this.style.background = '#fff';
-            alert('jii');
-        } else {    
-            this.setAttributeNS(null,"background","green");
+//         if (this.classList.contains('active')) {
+//             this.style.background = '#fff';
+//             alert('jii');
+//         } else {    
+//             this.setAttributeNS(null,"background","green");
 
-         } 
+//          } 
     
-    })
-}
+//     })
+// }
    
+const menuIcon = document.querySelector(".hamburger-menu");
+const navbar = document.querySelector(".navbar");
+
+menuIcon.addEventListener("click", () => {
+ navbar.classList.toggle("change");  
+});
+
     
